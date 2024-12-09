@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  	background-image: url(../img/fondo2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    opacity: 80%;
+}
+
+
+.contenedor-principal{
+
+width: 90%;
+max-width: 1500;
+margin: 5px auto;
+padding: 30px;
+border-radius: 15px;
+} 
+
+header {
+	display: flex ;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logos{
+	font-size: 20px;
+	font-weight: 10;
+	color: black;
+	text-decoration: none;
+  font-family: Comic Sans MS;
+}
+.Menu{
+
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.Menu a{
+		font-size: 25px;
+		font-weight: 800;
+		border-bottom: 2px solid transparent;
+        margin-left: 40px;
+        color: #52260a;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        font-family: Comic Sans MS;;
+}
+.Menu a:hover{
+
+	border-bottom: 2px solid #1e8449;
+	color:#1e8449;
+}
+main {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+.contenedor-imagen{
+	width: 30%;
+	margin-right: 50px;
+	display:inline-block;
+}
+img 
+{
+	height: 400px;
+    border-radius: 15px;
+	width: 300px;
+	margin-right: 20px;
+}
+.contenedor-texto.titulo{
+font-size: 45px;
+font-weight: normal;
+margin-bottom: 40px;
+}
+.contenedor-texto p{
+	margin-bottom: 40px;
+	line-height: 35px;
+	font-size: 20px;
+	color: black;
+}
+.contenedor_texto.Cafe{
+font-style: italic;
+font-weight: bold;
+color:black ;
+}
+.btn_link{
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 100px;
+	background: #e2a9ec;
+	text-decoration: none;
+	color: black;
+
+}
+
+.btn_link hover
+.btn_link activo
+{
+	color: white ;
+	background: black;
+}
